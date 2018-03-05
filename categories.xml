@@ -153,7 +153,7 @@ jQuery( "body" ).trigger( e );
             </li>
           </ul>
           <p>The following properties are also copied to the event object, though some of their values may be undefined depending on the event:</p>
-          <p>altKey, bubbles, button, buttons, cancelable, char, charCode, clientX, clientY, ctrlKey, currentTarget, data, detail, eventPhase, key, keyCode, metaKey, offsetX, offsetY, originalTarget, pageX, pageY, relatedTarget, screenX, screenY, shiftKey, target, toElement, view, which</p>
+          <p>altKey, bubbles, button, buttons, cancelable, char, charCode, clientX, clientY, code, ctrlKey, currentTarget, data, detail, eventPhase, key, keyCode, metaKey, offsetX, offsetY, originalTarget, pageX, pageY, relatedTarget, screenX, screenY, shiftKey, target, toElement, view, which</p>
           <h4>Other Properties</h4>
           <p>To access event properties not listed above, use the <code>event.originalEvent</code> object:</p>
           <pre><code>
